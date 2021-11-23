@@ -13,7 +13,7 @@ export default function Video(props) {
 
   return (
     <div className="s-call">
-      <div className="w-full mx-auto rounded-3xl shadow-xl s-call__mainScreen">
+      <div className="w-full mx-auto rounded-3xl shadow-xl s-call__minifiedScreen ">
         <AgoraVideoPlayer
           videoTrack={tracks[1]}
           style={{ height: "100%", width: "100%", position: "unset" }}
@@ -24,7 +24,7 @@ export default function Video(props) {
           if (user.videoTrack) {
             return (
          
-              <div class="w-full mx-auto rounded-3xl shadow-xl bg-white s-call__minifiedScreen" >
+              <div class="w-full mx-auto rounded-3xl shadow-xl bg-white s-call__mainScreen" >
              
                 <AgoraVideoPlayer
                   videoTrack={user.videoTrack}
