@@ -104,6 +104,18 @@ code {
       right:10px;
 
 }
+.s-call .s-call__minifiedScreen > div{
+ 
+      border-radius: 20px;
+     
+
+}
+.s-call .s-call__minifiedScreen > div video{
+ 
+  border-radius: 20px;
+ 
+
+}
 
 }
 
